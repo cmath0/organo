@@ -1,6 +1,6 @@
 import './Banner.css'
 
-function Banner() {
+export const Banner = () => {
     // JSX -> parece html mas não é! o react interpreta, "traduz" para html e faz o .append() no DOM
     return (
         <header className="banner">
@@ -8,5 +8,3 @@ function Banner() {
         </header>
     )
 }
-
-export default Banner
